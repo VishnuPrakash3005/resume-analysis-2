@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Set the specific Gemini API key
-GEMINI_API_KEY = "AIzaSyCdfRTyn5e39m0kZCQVW4x59b1Qo-YdWmU"
+GEMINI_API_KEY = "AIzaSyBUIMvCubeDxtKnWWjPlvHA6xGRn5NAPZQ"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Set page styling
